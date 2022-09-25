@@ -6,7 +6,7 @@ var  authConfig  =  {
   // It is strongly recommended to use your own client_id and client_secret
   client_id: "746239575955-oao9hkv614p8glrqpvuh5i8mqfoq145b.apps.googleusercontent.com", // Client id from Google Cloud Console
     client_secret: "u5a1CSY5pNjdD2tGTU93TTnI",
-    refresh_token: "", // Authorize token
+    refresh_token: "1//0drczEJBUH_WuCgYIARAAGA0SNwF-L9Ir12L7Z1m5l5B2uaJutdZXljGd2x3IoZap3bW9TQeBMpitfmcYiCXFB_hsizKm1Ri2GdE", // Authorize token
   /*
    * Set multiple drives to be displayed; add multiple by format
    * [id]: Can be team disk id, subfolder id, or "root" (representing the root directory of personal disk);
@@ -74,17 +74,17 @@ var themeOptions = {
 		      * Whether to render the HEAD.md file
 		      * Render HEAD.md file
 		      */
-    head_md: false,
+    head_md: true,
 		/**
 		      * Whether to render the README.md file
 		      * Render README.md file
 		      */
-    readme_md: false,
+    readme_md: true,
 		/**
 		      * Whether to render file/folder description
 		      * Render file/folder description or not
 		      */
-    desc: false,
+    desc: true,
   },
 	/**
 	    * Video player options
